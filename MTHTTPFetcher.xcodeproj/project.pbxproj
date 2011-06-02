@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C917EB139843240045489C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C917EA139843240045489C /* Foundation.framework */; };
+		39C918021398437E0045489C /* MTHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C917FA1398437E0045489C /* MTHTTPFetcher.h */; };
+		39C918031398437E0045489C /* MTHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C917FB1398437E0045489C /* MTHTTPFetcher.m */; };
+		39C918041398437E0045489C /* MTJSONFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C917FC1398437E0045489C /* MTJSONFetcher.h */; };
+		39C918051398437E0045489C /* MTJSONFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C917FD1398437E0045489C /* MTJSONFetcher.m */; };
+		39C918061398437E0045489C /* MTXMLFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C917FE1398437E0045489C /* MTXMLFetcher.h */; };
+		39C918071398437E0045489C /* MTXMLFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C917FF1398437E0045489C /* MTXMLFetcher.m */; };
+		39C918081398437E0045489C /* MTXPathResultNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C918001398437E0045489C /* MTXPathResultNode.h */; };
+		39C918091398437E0045489C /* MTXPathResultNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C918011398437E0045489C /* MTXPathResultNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39C917E7139843240045489C /* libMTHTTPFetcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTHTTPFetcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C917EA139843240045489C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39C917EE139843240045489C /* MTHTTPFetcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTHTTPFetcher-Prefix.pch"; sourceTree = "<group>"; };
+		39C917FA1398437E0045489C /* MTHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHTTPFetcher.h; sourceTree = "<group>"; };
+		39C917FB1398437E0045489C /* MTHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHTTPFetcher.m; sourceTree = "<group>"; };
+		39C917FC1398437E0045489C /* MTJSONFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTJSONFetcher.h; sourceTree = "<group>"; };
+		39C917FD1398437E0045489C /* MTJSONFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTJSONFetcher.m; sourceTree = "<group>"; };
+		39C917FE1398437E0045489C /* MTXMLFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXMLFetcher.h; sourceTree = "<group>"; };
+		39C917FF1398437E0045489C /* MTXMLFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTXMLFetcher.m; sourceTree = "<group>"; };
+		39C918001398437E0045489C /* MTXPathResultNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXPathResultNode.h; sourceTree = "<group>"; };
+		39C918011398437E0045489C /* MTXPathResultNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTXPathResultNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C917E4139843240045489C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C917EB139843240045489C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C917DC139843240045489C = {
+			isa = PBXGroup;
+			children = (
+				39C917EC139843240045489C /* MTHTTPFetcher */,
+				39C917E9139843240045489C /* Frameworks */,
+				39C917E8139843240045489C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C917E8139843240045489C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C917E7139843240045489C /* libMTHTTPFetcher.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C917E9139843240045489C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C917EA139843240045489C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39C917EC139843240045489C /* MTHTTPFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				39C9180B139843840045489C /* HTTP */,
+				39C9180C1398438B0045489C /* JSON */,
+				39C9180D139843930045489C /* XML */,
+				39C917ED139843240045489C /* Supporting Files */,
+			);
+			path = MTHTTPFetcher;
+			sourceTree = "<group>";
+		};
+		39C917ED139843240045489C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39C917EE139843240045489C /* MTHTTPFetcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39C9180B139843840045489C /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				39C917FA1398437E0045489C /* MTHTTPFetcher.h */,
+				39C917FB1398437E0045489C /* MTHTTPFetcher.m */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		39C9180C1398438B0045489C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				39C917FC1398437E0045489C /* MTJSONFetcher.h */,
+				39C917FD1398437E0045489C /* MTJSONFetcher.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		39C9180D139843930045489C /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				39C917FE1398437E0045489C /* MTXMLFetcher.h */,
+				39C917FF1398437E0045489C /* MTXMLFetcher.m */,
+				39C918001398437E0045489C /* MTXPathResultNode.h */,
+				39C918011398437E0045489C /* MTXPathResultNode.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39C917E5139843240045489C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C918021398437E0045489C /* MTHTTPFetcher.h in Headers */,
+				39C918041398437E0045489C /* MTJSONFetcher.h in Headers */,
+				39C918061398437E0045489C /* MTXMLFetcher.h in Headers */,
+				39C918081398437E0045489C /* MTXPathResultNode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39C917E6139843240045489C /* MTHTTPFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C917F1139843240045489C /* Build configuration list for PBXNativeTarget "MTHTTPFetcher" */;
+			buildPhases = (
+				39C917E3139843240045489C /* Sources */,
+				39C917E4139843240045489C /* Frameworks */,
+				39C917E5139843240045489C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTHTTPFetcher;
+			productName = MTHTTPFetcher;
+			productReference = 39C917E7139843240045489C /* libMTHTTPFetcher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C917DE139843240045489C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "NOUS Wissensmanagement GmbH";
+			};
+			buildConfigurationList = 39C917E1139843240045489C /* Build configuration list for PBXProject "MTHTTPFetcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39C917DC139843240045489C;
+			productRefGroup = 39C917E8139843240045489C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C917E6139843240045489C /* MTHTTPFetcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C917E3139843240045489C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C918031398437E0045489C /* MTHTTPFetcher.m in Sources */,
+				39C918051398437E0045489C /* MTJSONFetcher.m in Sources */,
+				39C918071398437E0045489C /* MTXMLFetcher.m in Sources */,
+				39C918091398437E0045489C /* MTXPathResultNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39C917EF139843240045489C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39C917F0139843240045489C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		39C917F2139843240045489C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/MTHTTPFetcher.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTHTTPFetcher/MTHTTPFetcher-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39C917F3139843240045489C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/MTHTTPFetcher.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTHTTPFetcher/MTHTTPFetcher-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C917E1139843240045489C /* Build configuration list for PBXProject "MTHTTPFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C917EF139843240045489C /* Debug */,
+				39C917F0139843240045489C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C917F1139843240045489C /* Build configuration list for PBXNativeTarget "MTHTTPFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C917F2139843240045489C /* Debug */,
+				39C917F3139843240045489C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C917DE139843240045489C /* Project object */;
+}

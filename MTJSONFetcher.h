@@ -23,6 +23,7 @@
 
 #import "MTHTTPFetcher.h"
 
+
 @interface MTJSONFetcher : MTHTTPFetcher
 {
 	id result;

@@ -21,6 +21,7 @@
 //     distribution.
 //
 
+
 @interface MTHTTPFetcher : NSObject
 #if TARGET_OS_IPHONE		
 	<UITextFieldDelegate>

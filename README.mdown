@@ -1,0 +1,6 @@
+Excerpt from Matt Gallaghers Blog "Cocoa With Love",
+http://cocoawithlove.com/2011/05/classes-for-fetching-and-parsing-xml-or.html
+
+# Classes for fetching and parsing XML or JSON via HTTP
+
+In this post I show two reusable classes for fetching data via HTTP: one that parses the result as XML and another that parses as JSON. These are relatively simple tasks but due to the number of required steps, they can become tiresome if you don't have robust, reusable code for the task. These classes will work on iOS or on the Mac but the optional error alerts and password dialogs are only implemented for iOS.
